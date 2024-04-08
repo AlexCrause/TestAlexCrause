@@ -36,6 +36,7 @@ string[] FilterShortStrings(string[] arr){
 string[] arr = { "Hello", "2", "world", ":-)" };
 
 // Вывод исходного массива: 
+
 Console.WriteLine("Исходный массив:");
 
 foreach (string s in arr)
@@ -53,9 +54,14 @@ string[] filteredArr = FilterShortStrings(arr);
 
 Console.WriteLine("Новый массив из строк, длина которых меньше или равна 3 символам:");
 
-foreach (string s in filteredArr){
+foreach (string s in filteredArr)
+
+{
+    
     Console.Write(s + " ");
+
 }
+
 Console.WriteLine();
 
 Исходный массив arr содержит строки "Hello", "2", "world", ":-)", из которых только строка "2" удовлетворяет условию (её длина меньше или равна трем символам). Поэтому отфильтрованный массив будет содержать только строку "2".
