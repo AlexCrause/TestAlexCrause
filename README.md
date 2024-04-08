@@ -37,8 +37,7 @@ string[] arr = { "Hello", "2", "world", ":-)" };
 
 // Вывод исходного массива
 Console.WriteLine("Исходный массив:");
-foreach (string s in arr)
-{
+foreach (string s in arr){
     Console.Write(s + " ");
 }
 Console.WriteLine();
@@ -46,8 +45,7 @@ Console.WriteLine();
 // Фильтрация массива и вывод результата
 string[] filteredArr = FilterShortStrings(arr);
 Console.WriteLine("Новый массив из строк, длина которых меньше или равна 3 символам:");
-foreach (string s in filteredArr)
-{
+foreach (string s in filteredArr){
     Console.Write(s + " ");
 }
 Console.WriteLine();
