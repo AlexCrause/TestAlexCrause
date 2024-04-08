@@ -37,3 +37,12 @@ foreach (string s in arr)
     Console.Write(s + " ");
 }
 Console.WriteLine();
+
+// Фильтруем массив и выводим результат
+string[] filteredArr = FilterShortStrings(arr);
+Console.WriteLine("Новый массив из строк, длина которых меньше или равна 3 символам:");
+foreach (string s in filteredArr)
+{
+    Console.Write(s + " ");
+}
+Console.WriteLine();
