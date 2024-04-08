@@ -38,7 +38,8 @@ string[] arr = { "Hello", "2", "world", ":-)" };
 // Вывод исходного массива: 
 Console.WriteLine("Исходный массив:");
 
-foreach (string s in arr){
+foreach (string s in arr)
+{
     Console.Write(s + " ");
 }
 Console.WriteLine();
