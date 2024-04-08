@@ -9,7 +9,22 @@
             count++;
         }
     }
+    // Создаем новый массив подходящего размера
+    string[] result = new string[count];
+    int index = 0;
+    // Заполняем новый массив строками, удовлетворяющими условию
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i].Length <= 3)
+        {
+            result[index] = arr[i];
+            index++;
+        }
+
+    }
+    return result;
 }
+
 
 
 // Пример задания массива на старте выполнения
