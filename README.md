@@ -41,8 +41,11 @@ Console.WriteLine("Исходный массив:");
 foreach (string s in arr)
 
 {
+    
     Console.Write(s + " ");
+
 }
+
 Console.WriteLine();
 
 // Фильтрация массива и вывод результата
